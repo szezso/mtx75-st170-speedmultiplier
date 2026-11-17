@@ -23,7 +23,7 @@ void handlePulse() {
     // MAXIMUM NOISE PROTECTION:
     // Ignores any spike/pulse faster than 1500us.
     // Cleanly allows your VSS to track all the way up to ~266 km/h.
-    if (duration < 1000) {
+    if (duration < 1500) {
         return; 
     }
 
