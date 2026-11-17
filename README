@@ -1,0 +1,5 @@
+Speed signal multiplier raw code for MTX75 gearbox VSS used with ST170 engine/ECU. Converts the MTX75's 26 tooth gear signal to 69 tooth, what the ST170 ECU expects.
+Can be used on a daily basis reliably.
+
+BUGS:
+Needle slows down after ~100-110 km/h, possible voltage issue
